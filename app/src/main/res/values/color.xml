@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mycourse_line_green">#18bda4</color>
+    <color name="mycourse_line_gray">#d7d7d7</color>
+    <color name="mycourse_v_line">#798382</color>
+    <color name="mycourse_little_title_">#18bda4</color>
+    <color name="mycourse_little_title_normal">#929aa2</color>
+    <color name="mycourse_level_txt_color_normal">#494f56</color>
+    <color name="mycourse_level_learning_color">#ffb516</color>
+    <color name="mycourse_level_no_course_color">#b8bfc6</color>
+    <color name="trans">#232625</color>
+    <color name="mycourse_downloadtype_txt_color">#c8d0d4</color>
+    <color name="download_mgr_pause_text">#ffb72e</color>
+    <color name="download_mgr_failed_text">#f76a70</color>
+    <color name="mycourse_intro_normal">#18bda4</color>
+    <color name="mycourse_intro_press">#09947f</color>
+    <color name="bg_buttom_view">#323232</color>
+    <color name="theme500">#00BCD4</color>
+    <color name="theme600">#00ACC1</color>
+    <color name="accent200">#FFFF00</color>
+
+    <!-- Greyscales -->
+    <color name="grey200">#EEEEEE</color>
+    <color name="grey600">#757575</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_alpha_12">#1F000000</color>
+    <color name="black_alpha_30">#4D000000</color>
+
+    <!-- Others -->
+    <color name="blue_accent200">#2979FF</color>
+    <color name="teal_500">#009688</color>
+</resources>

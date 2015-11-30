@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <declare-styleable name="WaveVIew">
+        <attr name="back_ground" format="reference"/>
+    </declare-styleable>
+    <style name="FabMargin">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+</resources>

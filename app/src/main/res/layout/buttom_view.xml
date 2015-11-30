@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/bg_buttom_view"
+    android:visibility="invisible"
+    android:layout_width="match_parent" android:layout_height="@dimen/y160">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/buttom_view_select_layout"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/buttom_view_select_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_select_all_normal"
+            android:layout_marginLeft="@dimen/x48"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选"
+            android:textSize="@dimen/x48"
+            android:layout_marginLeft="@dimen/x28"
+            android:textColor="@color/mycourse_downloadtype_txt_color"
+            />
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="@dimen/x258"
+        android:layout_height="@dimen/y88"
+        android:id="@+id/buttom_view_btn_add"
+        android:text="开始缓存"
+        android:gravity="center"
+        android:textSize="@dimen/x40"
+        android:textColor="#ffffff"
+        android:padding="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x100"
+        android:layout_toLeftOf="@+id/buttom_view_btn_delete"
+        />
+    <TextView
+        android:layout_width="@dimen/x258"
+        android:layout_height="@dimen/y88"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x50"
+        android:id="@+id/buttom_view_btn_delete"
+        android:text="全部删除"
+        android:padding="1dp"
+        android:gravity="center"
+        android:textSize="@dimen/x40"
+        android:textColor="#ffffff"
+
+        />
+</RelativeLayout>

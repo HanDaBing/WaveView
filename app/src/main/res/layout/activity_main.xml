@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn"
+        style="@style/FabMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_share_white_24dp"
+        app:backgroundTint="@color/bg_buttom_view"
+        app:borderWidth="0dp" />
+
+    <com.example.hanbing.waveview.anim.io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <include layout="@layout/buttom_view"
+            android:layout_width="match_parent"
+            android:id="@+id/buttom_view"
+            android:layout_height="@dimen/y160"
+            >
+
+        </include>
+        </com.example.hanbing.waveview.anim.io.codetail.widget.RevealFrameLayout>
+
+
+
+</RelativeLayout>
